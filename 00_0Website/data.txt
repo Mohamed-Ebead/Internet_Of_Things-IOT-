@@ -1,0 +1,10 @@
+FTP Server/Host: atom.orgfree.com
+FTP Login/Username: atom.orgfree.com
+FTP PassWord: 123456789
+
+Remote Address: 162.253.155.227:80
+
+AT+CIPSTART="TCP","162.253.155.227",80
+
+AT+CIPSEND=40
+GET http://atom.orgfree.com/status.txt
